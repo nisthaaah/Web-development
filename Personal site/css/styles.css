@@ -1,0 +1,19 @@
+    body {
+        background-color: lavenderblush;
+    }
+    hr {
+        border-color: #593870;
+        border-style: none;
+        border-top-style: dotted;
+        border-width: 4px;
+        height: 2px;
+        width: 10%;
+    }
+    h1 {
+        color: #593870;
+    }
+    h3 {
+        color: #593870;
+    
+    }
+    
