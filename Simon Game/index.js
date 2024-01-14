@@ -8,7 +8,7 @@ function next(){
 
     gamePatt.push(randomChosenColor);
     
-    $("#" + randomChosenColor).fadeIn(90).fadeOut(80).fadeIn(80).fadeOut(80);
+    $("#" + randomChosenColor).fadeIn(80).fadeOut(80).fadeIn(80).fadeOut(80);
 
     var audio = new Audio("sounds/" + randomChosenColor + ".mp3");
     audio.play();
