@@ -1,0 +1,34 @@
+#app{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+}
+
+.male{
+    border-color: steelblue;
+    background-color: steelblue;
+    color: black;
+}
+
+.female{
+    border-color: goldenrod;
+    background-color: goldenrod;
+    color: black;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px #333 solid;
+    margin-bottom: 1rem;
+  }
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    background: #333;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    padding: 1rem 1.5rem;
+  }
