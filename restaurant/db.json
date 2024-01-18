@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "name": "Harry Potter",
+      "email": "harry@gmail.com",
+      "password": "abc@123",
+      "id": "7663"
+    },
+    {
+      "name": "Nistha",
+      "email": "nistha@gmail.com",
+      "password": "abc@123",
+      "id": "05f2"
+    },
+    {
+      "name": "Harsh Potter",
+      "email": "harsh@gmail.com",
+      "password": "abc@123",
+      "id": "c802"
+    },
+    {
+      "name": "Jimin",
+      "email": "jimin@gmail.com",
+      "password": "abc@123",
+      "id": "1d3d"
+    },
+    {
+      "id": "bcc9",
+      "name": "aman",
+      "email": "aman@gmail.com",
+      "password": "aman45"
+    },
+    {
+      "id": "34a2",
+      "name": "nistha",
+      "email": "nistha@gmail.com",
+      "password": "bsjy7"
+    },
+    {
+      "id": "165b",
+      "name": "mostha",
+      "email": "msjatuhs@gmail.com",
+      "password": "bjbjad7"
+    },
+    {
+      "id": "b030",
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "f031",
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "157a",
+      "name": "",
+      "email": "",
+      "password": ""
+    }
+  ]
+}
