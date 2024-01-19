@@ -15,16 +15,19 @@ export default {
 </script>
 
 <style>
+body{
+  padding: 0;
+  margin: 0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 
-.signup input, .login input{
+.signup input, .login input, .add input{
     width: 300px;
     height: 30px;
     display: block;
@@ -35,10 +38,10 @@ export default {
     border-width: 2px;
 }
 
-.signup button, .login button{
+.signup button, .login button, .add button{
     background-color: black;
     color: white;
-    padding: 6px 130px;
+    padding: 8px 130px;
     border-radius: 8px;
     display: block;
     margin-bottom: 10px;

@@ -5,7 +5,7 @@
         <input type="text" v-model="email" placeholder="Enter Email" />
         <input type="password" v-model="password" placeholder="Enter Password" />
         <button @click="signUp">SignUp</button>
-        <button @click="logIn">Login</button>
+        <p><router-link to="/log-in" class="p">LogIn</router-link></p>
         
     </div>
 </template>
@@ -23,19 +23,18 @@ export default {
     },
     methods: {
         async signUp() {
-            let res = await axios.post("http://localhost:3000/users", {
+            let res = await axios.post("http://localhost:3001/users", {
                 name: this.name,
                 email: this.email,
                 password: this.password,
             });
 
             if (res.status == 201) {
+                localStorage.setItem("user-info", JSON.stringify(res.data));
                 this.$router.push({ name: "HomePage" });
             }
         },
-        logIn() {
-            this.$router.push({ name: "LoginPage" });
-        },
+
     },
 
     mounted() {
@@ -62,11 +61,20 @@ export default {
 .signup button {
     background-color: black;
     color: white;
-    padding: 6px 130px;
+    padding: 8px 130px;
     border-radius: 8px;
     display: block;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.p{
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bolder;
+    border: 2px solid;
+    padding: 8px 130px;
+    border-radius: 5px;
 }
 </style>

@@ -59,6 +59,32 @@
       "name": "",
       "email": "",
       "password": ""
+    },
+    {
+      "id": "957c",
+      "name": "Ayush",
+      "email": "ayush@gmail.com",
+      "password": "abc@123"
+    }
+  ],
+  "restaurant": [
+    {
+      "id": "6359",
+      "name": "startbucks",
+      "address": "noida",
+      "contact": "156"
+    },
+    {
+      "id": "4957",
+      "name": "startbucks",
+      "address": "noida",
+      "contact": "898"
+    },
+    {
+      "id": "4b77",
+      "name": "abc",
+      "address": "xty",
+      "contact": "134"
     }
   ]
 }
