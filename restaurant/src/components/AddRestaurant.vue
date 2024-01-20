@@ -22,7 +22,8 @@ export default {
                 name: '',
                 address: '',
                 contact: ''
-            }
+            },
+            name: '',
 
         }
     },
